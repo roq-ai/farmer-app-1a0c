@@ -1,0 +1,2672 @@
+[
+  {
+    "visit": [
+      {
+        "id": "16e7aecb-8c31-4e38-8eea-cdab819db2f6",
+        "salesperson_name": "Alex Johnson",
+        "visit_date": "2023-09-12T23:03:01.503Z",
+        "purpose": "Exploring potential partnership",
+        "notes": "Impressed by the farm's facilities",
+        "created_at": "2023-09-12T06:09:43.527Z",
+        "updated_at": "2023-09-12T08:41:09.144Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "af3ae298-bf12-4ff7-83fa-07b461ec6622",
+        "salesperson_name": "Emily Davis",
+        "visit_date": "2023-09-12T09:21:31.654Z",
+        "purpose": "Discussing new product offerings",
+        "notes": "Noted the farm's commitment to sustainability",
+        "created_at": "2023-09-12T15:02:53.835Z",
+        "updated_at": "2023-09-12T11:02:23.177Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "39be6bac-6570-453a-a949-5924874b441e",
+        "salesperson_name": "Ryan Thompson",
+        "visit_date": "2023-09-12T08:58:53.821Z",
+        "purpose": "Providing product demonstration",
+        "notes": "Discussed pricing and delivery options",
+        "created_at": "2023-09-12T08:18:53.388Z",
+        "updated_at": "2023-09-12T06:13:35.705Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "72df0739-aee4-4c87-87b3-8650a6cd9d6d",
+        "salesperson_name": "Olivia Wilson",
+        "visit_date": "2023-09-12T05:25:49.863Z",
+        "purpose": "Negotiating terms and conditions",
+        "notes": "Agreed on a trial period for the product",
+        "created_at": "2023-09-12T16:15:30.522Z",
+        "updated_at": "2023-09-12T19:49:35.240Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "100edb7d-2269-46af-ad8f-db74f2b1ba09",
+        "salesperson_name": "Jacob Anderson",
+        "visit_date": "2023-09-12T06:30:37.247Z",
+        "purpose": "Gathering market insights",
+        "notes": "Highlighted the farm's unique selling points",
+        "created_at": "2023-09-12T10:40:02.023Z",
+        "updated_at": "2023-09-12T14:32:52.456Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "8f6d5209-3a89-4fae-818c-0d18b35d3104",
+        "product_name": "Fresh Apples",
+        "quantity": 77336,
+        "price": 79446,
+        "sale_date": "2023-09-12T02:44:18.573Z",
+        "buyer": "Healthy Harvest Grocery",
+        "created_at": "2023-09-12T09:17:33.129Z",
+        "updated_at": "2023-09-12T17:18:26.193Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b74a65bb-d063-457e-b0ee-fdc2ca82f48a",
+        "product_name": "Grass-fed Beef",
+        "quantity": 91118,
+        "price": 55291,
+        "sale_date": "2023-09-12T08:41:23.767Z",
+        "buyer": "Farm-to-Table Restaurant",
+        "created_at": "2023-09-12T09:35:03.855Z",
+        "updated_at": "2023-09-12T22:08:12.332Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "91b478f6-eaf7-417a-a945-1278219e5f11",
+        "product_name": "Organic Eggs",
+        "quantity": 14202,
+        "price": 4964,
+        "sale_date": "2023-09-12T14:24:25.310Z",
+        "buyer": "Local Farmers Market",
+        "created_at": "2023-09-12T18:14:07.843Z",
+        "updated_at": "2023-09-12T13:13:42.821Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "9b1ae8d8-89be-44ea-9b18-fa774ecbbb31",
+        "product_name": "Artisanal Cheese",
+        "quantity": 83940,
+        "price": 42705,
+        "sale_date": "2023-09-12T03:37:19.379Z",
+        "buyer": "Gourmet Food Store",
+        "created_at": "2023-09-12T01:02:00.019Z",
+        "updated_at": "2023-09-12T13:50:09.884Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8b0693e1-4395-47d2-a405-9f314498af7f",
+        "product_name": "Handcrafted Soap",
+        "quantity": 10041,
+        "price": 94294,
+        "sale_date": "2023-09-13T00:05:03.086Z",
+        "buyer": "Online Organic Shop",
+        "created_at": "2023-09-12T06:40:57.357Z",
+        "updated_at": "2023-09-12T23:25:19.177Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "8b6ff9ab-dbf9-48c1-9cb9-dd394818c164",
+        "product_name": "Organic Tomatoes",
+        "quantity": 10804,
+        "price": 69036,
+        "purchase_date": "2023-09-12T03:18:52.782Z",
+        "supplier": "Sunny Fields Farm",
+        "created_at": "2023-09-12T21:29:12.534Z",
+        "updated_at": "2023-09-12T11:26:36.166Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4dea3c88-4360-4866-8d4f-78134216c2d5",
+        "product_name": "Free-range Chicken",
+        "quantity": 59062,
+        "price": 82734,
+        "purchase_date": "2023-09-12T18:06:20.100Z",
+        "supplier": "Happy Hens Poultry",
+        "created_at": "2023-09-12T08:46:43.173Z",
+        "updated_at": "2023-09-13T00:42:13.659Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d709e0fb-b331-413f-b4ca-6d8adcbe6b70",
+        "product_name": "Locally-sourced Honey",
+        "quantity": 80271,
+        "price": 96117,
+        "purchase_date": "2023-09-12T16:50:07.732Z",
+        "supplier": "Golden Honey Co.",
+        "created_at": "2023-09-13T00:09:26.983Z",
+        "updated_at": "2023-09-12T15:22:03.746Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "315077f6-f37c-42e0-af8a-cbae44cb8e6b",
+        "product_name": "Artisan Bread",
+        "quantity": 17626,
+        "price": 77056,
+        "purchase_date": "2023-09-12T18:40:15.953Z",
+        "supplier": "Artisan Bakery",
+        "created_at": "2023-09-12T20:15:34.675Z",
+        "updated_at": "2023-09-12T19:52:35.604Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8bb2cfa0-c37e-41eb-9d90-4c523278033d",
+        "product_name": "Handmade Crafts",
+        "quantity": 87043,
+        "price": 57146,
+        "purchase_date": "2023-09-12T05:40:53.378Z",
+        "supplier": "Crafty Creations",
+        "created_at": "2023-09-12T18:12:33.583Z",
+        "updated_at": "2023-09-12T18:20:30.651Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "7a9f5d4c-e2f8-4869-a004-10a25a75354f",
+        "total_income": 19254,
+        "total_expense": 29397,
+        "net_income": 69050,
+        "statement_date": "2023-09-12T22:13:08.017Z",
+        "created_at": "2023-09-12T03:30:45.158Z",
+        "updated_at": "2023-09-12T06:19:15.970Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "25f01e10-6d99-4aa5-8227-3a752facb7a7",
+        "total_income": 75787,
+        "total_expense": 39712,
+        "net_income": 64215,
+        "statement_date": "2023-09-13T00:40:40.615Z",
+        "created_at": "2023-09-12T03:04:07.556Z",
+        "updated_at": "2023-09-12T10:18:47.546Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "91c264cd-571c-47c8-afc5-5c332a571df9",
+        "total_income": 67318,
+        "total_expense": 32917,
+        "net_income": 88927,
+        "statement_date": "2023-09-12T02:34:10.829Z",
+        "created_at": "2023-09-12T11:48:57.115Z",
+        "updated_at": "2023-09-12T02:17:00.018Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3e8e8fd2-2ef4-402b-9898-47967f1d197a",
+        "total_income": 27065,
+        "total_expense": 74445,
+        "net_income": 30145,
+        "statement_date": "2023-09-12T11:26:07.010Z",
+        "created_at": "2023-09-12T20:19:07.786Z",
+        "updated_at": "2023-09-12T21:51:48.926Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "15f8f424-8d51-4d3d-b85c-8da3e6eba80e",
+        "total_income": 9743,
+        "total_expense": 95432,
+        "net_income": 94612,
+        "statement_date": "2023-09-12T17:53:42.183Z",
+        "created_at": "2023-09-12T05:36:46.500Z",
+        "updated_at": "2023-09-12T22:05:46.314Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "72486a72-1825-49af-800b-c320f8438b35",
+        "email": "Reagan.Grady@gmail.com",
+        "firstName": "Jameson",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19277699",
+        "tenantId": null
+      },
+      {
+        "reference": "d572fbae-a327-4037-9689-696665a2a964",
+        "email": "Jakayla_Volkman@yahoo.com",
+        "firstName": "Royce",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93893384",
+        "tenantId": null
+      },
+      {
+        "reference": "e077bb86-ff70-4e62-808a-882ae53a4ef8",
+        "email": "Gilda25@hotmail.com",
+        "firstName": "Claude",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56745444",
+        "tenantId": null
+      },
+      {
+        "reference": "1d4310ef-2fc2-42f0-a95e-b0a5f72013c6",
+        "email": "Tyrell.Herman34@yahoo.com",
+        "firstName": "Adrian",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/228.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b435bd35-f3f4-4f81-9db8-abc33b3402d7",
+        "email": "Mekhi90@hotmail.com",
+        "firstName": "Florian",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70694384",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "0f9315b0-c8bc-4c34-b923-10d91c0bb61d",
+        "salesperson_name": "John Smith",
+        "visit_date": "2023-09-12T23:01:41.007Z",
+        "purpose": "Meeting with potential buyer",
+        "notes": "Impressed with the farm's cleanliness",
+        "created_at": "2023-09-12T04:53:57.630Z",
+        "updated_at": "2023-09-12T03:07:06.960Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4e6090a4-fa4a-4ce5-942a-668fe650abb2",
+        "salesperson_name": "Emily Johnson",
+        "visit_date": "2023-09-12T21:14:08.984Z",
+        "purpose": "Inspecting farm facilities",
+        "notes": "Noticed potential for expansion",
+        "created_at": "2023-09-12T20:44:01.590Z",
+        "updated_at": "2023-09-12T07:09:39.488Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "6a9ba212-1e57-4630-91cd-906d860d0b7b",
+        "salesperson_name": "Michael Davis",
+        "visit_date": "2023-09-12T22:55:38.931Z",
+        "purpose": "Negotiating sales agreement",
+        "notes": "Positive feedback from previous customers",
+        "created_at": "2023-09-12T02:11:04.523Z",
+        "updated_at": "2023-09-12T15:00:17.134Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "81757126-48a5-4a2e-8334-818ba4db4842",
+        "salesperson_name": "Sarah Wilson",
+        "visit_date": "2023-09-12T16:27:25.029Z",
+        "purpose": "Providing product demonstration",
+        "notes": "Concerns about transportation logistics",
+        "created_at": "2023-09-12T10:37:25.833Z",
+        "updated_at": "2023-09-12T04:32:15.155Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "89941ad0-e420-4821-ad11-0ec10bd44a5c",
+        "salesperson_name": "David Thompson",
+        "visit_date": "2023-09-12T09:29:14.677Z",
+        "purpose": "Discussing partnership opportunities",
+        "notes": "Discussed pricing and delivery options",
+        "created_at": "2023-09-12T02:36:48.530Z",
+        "updated_at": "2023-09-12T22:44:52.998Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "bb8b3c4b-c131-4b8e-9b37-e72b5b21fc1e",
+        "product_name": "Fresh Apples",
+        "quantity": 52611,
+        "price": 67121,
+        "sale_date": "2023-09-12T16:39:21.022Z",
+        "buyer": "Supermarket Chain A",
+        "created_at": "2023-09-12T17:47:09.317Z",
+        "updated_at": "2023-09-12T17:35:04.185Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8b9266cb-e1e1-4ddf-971b-639d52a5cc56",
+        "product_name": "Grass-fed Beef",
+        "quantity": 83245,
+        "price": 261,
+        "sale_date": "2023-09-12T15:27:16.101Z",
+        "buyer": "Restaurant Group B",
+        "created_at": "2023-09-12T17:14:43.683Z",
+        "updated_at": "2023-09-12T06:39:47.593Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "eed39220-3ff5-4b45-9d95-cf5f9ec80c8b",
+        "product_name": "Organic Eggs",
+        "quantity": 78140,
+        "price": 60521,
+        "sale_date": "2023-09-12T06:20:27.150Z",
+        "buyer": "Wholesale Distributor C",
+        "created_at": "2023-09-12T20:31:29.512Z",
+        "updated_at": "2023-09-12T23:38:55.608Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4e6cb228-60cc-48a0-9c7b-d3acb416e425",
+        "product_name": "Handcrafted Cheese",
+        "quantity": 52720,
+        "price": 44121,
+        "sale_date": "2023-09-12T15:25:42.142Z",
+        "buyer": "Local Farmers Market",
+        "created_at": "2023-09-12T09:59:02.133Z",
+        "updated_at": "2023-09-12T09:03:25.788Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "51dfe463-1c80-4e2f-ae9f-2b1eaba5d681",
+        "product_name": "Artisan Bread",
+        "quantity": 41206,
+        "price": 19117,
+        "sale_date": "2023-09-12T23:58:09.477Z",
+        "buyer": "Online Grocery Store",
+        "created_at": "2023-09-12T18:36:15.267Z",
+        "updated_at": "2023-09-12T07:18:26.796Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "07b5ba05-86ea-4b2b-bbbe-5d5671531eed",
+        "product_name": "Organic Tomatoes",
+        "quantity": 26392,
+        "price": 53665,
+        "purchase_date": "2023-09-12T23:08:41.029Z",
+        "supplier": "Farmers Cooperative X",
+        "created_at": "2023-09-12T21:03:54.523Z",
+        "updated_at": "2023-09-12T10:36:42.522Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "7f1c5c39-76c0-4b7c-bcb2-a1eed30072fe",
+        "product_name": "Free-range Chicken",
+        "quantity": 58836,
+        "price": 11895,
+        "purchase_date": "2023-09-12T20:13:48.702Z",
+        "supplier": "Family-owned Farm Y",
+        "created_at": "2023-09-12T20:22:48.332Z",
+        "updated_at": "2023-09-12T05:54:31.968Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3f056149-f6ee-4947-bc49-75a79666cecf",
+        "product_name": "Locally-sourced Honey",
+        "quantity": 44730,
+        "price": 16893,
+        "purchase_date": "2023-09-12T06:23:53.769Z",
+        "supplier": "Specialty Producer Z",
+        "created_at": "2023-09-12T15:04:41.167Z",
+        "updated_at": "2023-09-12T20:52:23.552Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f88a1fad-06ac-4114-9f87-0f75a0146e02",
+        "product_name": "Fresh Seafood",
+        "quantity": 90693,
+        "price": 35309,
+        "purchase_date": "2023-09-12T09:37:19.804Z",
+        "supplier": "Regional Distributor",
+        "created_at": "2023-09-12T09:57:06.883Z",
+        "updated_at": "2023-09-12T13:28:22.905Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cfa84d49-7c69-4021-9d7b-423f5a2d17ff",
+        "product_name": "Artisanal Chocolate",
+        "quantity": 89047,
+        "price": 42274,
+        "purchase_date": "2023-09-12T01:52:37.772Z",
+        "supplier": "Direct from Grower",
+        "created_at": "2023-09-12T21:06:15.146Z",
+        "updated_at": "2023-09-12T17:02:48.438Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "721fbc36-e1ff-4648-bac3-44bd55864b7f",
+        "total_income": 3123,
+        "total_expense": 80546,
+        "net_income": 78547,
+        "statement_date": "2023-09-12T12:54:50.880Z",
+        "created_at": "2023-09-12T21:16:57.275Z",
+        "updated_at": "2023-09-12T23:23:27.165Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "72b5bb25-ce85-4c6c-a504-b6453055aa97",
+        "total_income": 70301,
+        "total_expense": 48659,
+        "net_income": 41157,
+        "statement_date": "2023-09-12T09:29:17.714Z",
+        "created_at": "2023-09-12T06:24:05.312Z",
+        "updated_at": "2023-09-12T08:02:53.920Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3bb0955f-a813-4dee-924c-1bc1dda3ced6",
+        "total_income": 201,
+        "total_expense": 26744,
+        "net_income": 48393,
+        "statement_date": "2023-09-12T03:28:08.532Z",
+        "created_at": "2023-09-12T13:19:57.547Z",
+        "updated_at": "2023-09-12T18:41:39.683Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "46b3fcef-c20f-47e1-80a0-9e02e53eba01",
+        "total_income": 84782,
+        "total_expense": 71986,
+        "net_income": 2211,
+        "statement_date": "2023-09-12T15:14:52.904Z",
+        "created_at": "2023-09-12T13:20:43.448Z",
+        "updated_at": "2023-09-12T20:44:24.872Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "0808ac22-32d8-403a-bece-450e5ad056fb",
+        "total_income": 17241,
+        "total_expense": 14960,
+        "net_income": 80666,
+        "statement_date": "2023-09-12T01:47:25.102Z",
+        "created_at": "2023-09-12T16:21:07.303Z",
+        "updated_at": "2023-09-12T19:10:47.908Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "04d1f220-2b02-43d2-ad9d-4e40bed53ed9",
+        "email": "Kacie_Kilback@hotmail.com",
+        "firstName": "Erwin",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/170.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0874541d-ecba-4afb-8b8b-8262b53a48c9",
+        "email": "Lolita.Gutmann45@yahoo.com",
+        "firstName": "Moshe",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1247.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9e203e77-8df6-4a95-90bc-004f2d4464d9",
+        "email": "Loy.Tromp@hotmail.com",
+        "firstName": "Janice",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42931906",
+        "tenantId": null
+      },
+      {
+        "reference": "f983c44c-1b97-4006-b209-42f117abb008",
+        "email": "Jan_Stark@gmail.com",
+        "firstName": "Emmie",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44457632",
+        "tenantId": null
+      },
+      {
+        "reference": "b62f4991-2345-469d-a6dd-ff54c73c5f34",
+        "email": "Toby49@yahoo.com",
+        "firstName": "Alexie",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27297545",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "97f30e3b-ed4d-4757-8471-5360bbf58aed",
+        "salesperson_name": "John Smith",
+        "visit_date": "2023-09-12T10:04:15.440Z",
+        "purpose": "Product demonstration",
+        "notes": "Impressed with the farm's facilities",
+        "created_at": "2023-09-12T18:56:32.239Z",
+        "updated_at": "2023-09-12T19:02:24.503Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "38d54152-33be-4c7d-9d03-17f51e6d8320",
+        "salesperson_name": "Jane Johnson",
+        "visit_date": "2023-09-12T09:46:32.292Z",
+        "purpose": "Negotiation",
+        "notes": "Discussed pricing options",
+        "created_at": "2023-09-12T12:44:16.876Z",
+        "updated_at": "2023-09-12T16:05:20.832Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "839cedb2-1624-4a04-bd41-5e09e1a1b9a5",
+        "salesperson_name": "Mike Davis",
+        "visit_date": "2023-09-12T14:32:06.204Z",
+        "purpose": "Farm tour",
+        "notes": "Noted potential partnership opportunities",
+        "created_at": "2023-09-12T22:46:27.058Z",
+        "updated_at": "2023-09-12T22:41:52.342Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "71d73755-3927-4393-92fb-5ac3be0a8a74",
+        "salesperson_name": "Emily Wilson",
+        "visit_date": "2023-09-12T22:40:56.630Z",
+        "purpose": "Training session",
+        "notes": "Provided recommendations for improvement",
+        "created_at": "2023-09-12T20:21:02.199Z",
+        "updated_at": "2023-09-12T19:58:00.546Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c7d9eac4-42bf-4ee4-a339-4e8ebc4da8ce",
+        "salesperson_name": "Sarah Thompson",
+        "visit_date": "2023-09-12T09:57:51.170Z",
+        "purpose": "Contract signing",
+        "notes": "Scheduled follow-up meeting",
+        "created_at": "2023-09-12T10:52:58.282Z",
+        "updated_at": "2023-09-12T13:52:00.620Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "3128c61e-85f7-4662-8783-8b4de28b2ffb",
+        "product_name": "Apples",
+        "quantity": 30386,
+        "price": 94538,
+        "sale_date": "2023-09-12T15:20:11.932Z",
+        "buyer": "Fresh Groceries Inc.",
+        "created_at": "2023-09-12T18:18:36.206Z",
+        "updated_at": "2023-09-12T20:42:49.971Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "7effbc07-2e6a-4bd4-baa2-6c1f9454241f",
+        "product_name": "Tomatoes",
+        "quantity": 82357,
+        "price": 82020,
+        "sale_date": "2023-09-12T16:47:36.169Z",
+        "buyer": "Farm-to-Table Restaurant",
+        "created_at": "2023-09-12T03:54:37.170Z",
+        "updated_at": "2023-09-12T18:41:46.003Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4b511a1d-bcb5-4446-b56b-e3cbe8ed56d9",
+        "product_name": "Beef",
+        "quantity": 72358,
+        "price": 44268,
+        "sale_date": "2023-09-13T00:00:26.150Z",
+        "buyer": "Local Supermarket",
+        "created_at": "2023-09-12T09:48:50.176Z",
+        "updated_at": "2023-09-12T12:06:27.381Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "42d615bf-e20c-42f2-9ccb-e33599acca07",
+        "product_name": "Milk",
+        "quantity": 52058,
+        "price": 59251,
+        "sale_date": "2023-09-12T16:54:13.430Z",
+        "buyer": "Online Organic Store",
+        "created_at": "2023-09-12T16:55:19.314Z",
+        "updated_at": "2023-09-12T04:58:00.899Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c8bf42a0-5052-464b-927f-7f8e2efc2275",
+        "product_name": "Basil",
+        "quantity": 42670,
+        "price": 50926,
+        "sale_date": "2023-09-12T14:17:39.361Z",
+        "buyer": "Gourmet Food Supplier",
+        "created_at": "2023-09-12T08:43:03.172Z",
+        "updated_at": "2023-09-12T22:24:07.674Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "f3242f85-9189-4fb8-bb6c-58557bbe0ae4",
+        "product_name": "Corn",
+        "quantity": 33024,
+        "price": 50854,
+        "purchase_date": "2023-09-12T01:08:27.081Z",
+        "supplier": "Farmers Cooperative",
+        "created_at": "2023-09-13T00:13:31.518Z",
+        "updated_at": "2023-09-12T17:25:30.894Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d400e5d6-1a3c-4cd3-93f1-1aef24be3c42",
+        "product_name": "Strawberries",
+        "quantity": 85561,
+        "price": 23239,
+        "purchase_date": "2023-09-12T14:19:06.706Z",
+        "supplier": "Organic Produce Distributor",
+        "created_at": "2023-09-12T08:39:05.590Z",
+        "updated_at": "2023-09-12T11:53:42.243Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "1a356569-6095-4a2a-8436-c97c064e3e4f",
+        "product_name": "Chicken",
+        "quantity": 85046,
+        "price": 87046,
+        "purchase_date": "2023-09-12T20:22:29.669Z",
+        "supplier": "Meat Processing Company",
+        "created_at": "2023-09-12T15:43:51.209Z",
+        "updated_at": "2023-09-12T18:56:55.352Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "dc765131-ea39-4127-8dc3-0f2fb395e935",
+        "product_name": "Cheese",
+        "quantity": 22958,
+        "price": 40016,
+        "purchase_date": "2023-09-12T05:10:02.926Z",
+        "supplier": "Dairy Products Supplier",
+        "created_at": "2023-09-12T20:07:37.562Z",
+        "updated_at": "2023-09-12T11:00:23.518Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "7a95190c-2792-4785-8736-2edbea5e4c49",
+        "product_name": "Thyme",
+        "quantity": 11258,
+        "price": 99945,
+        "purchase_date": "2023-09-12T08:52:58.843Z",
+        "supplier": "Herb Supplier",
+        "created_at": "2023-09-12T02:12:34.186Z",
+        "updated_at": "2023-09-12T10:57:30.873Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "878ec79a-48c1-41d0-8bdd-f34890db7026",
+        "total_income": 34659,
+        "total_expense": 74164,
+        "net_income": 44584,
+        "statement_date": "2023-09-12T07:58:12.158Z",
+        "created_at": "2023-09-12T13:51:00.128Z",
+        "updated_at": "2023-09-12T12:35:57.224Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f44aa880-0fd3-4da9-9ef1-4074bf3d92d3",
+        "total_income": 50185,
+        "total_expense": 55651,
+        "net_income": 61971,
+        "statement_date": "2023-09-12T04:11:47.407Z",
+        "created_at": "2023-09-12T14:51:51.174Z",
+        "updated_at": "2023-09-12T06:00:58.628Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a0bc0dc3-b529-4140-af5c-242f8a68081d",
+        "total_income": 30561,
+        "total_expense": 95529,
+        "net_income": 76031,
+        "statement_date": "2023-09-12T17:35:43.189Z",
+        "created_at": "2023-09-12T20:46:59.528Z",
+        "updated_at": "2023-09-12T07:53:52.338Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "42deba38-6933-41ed-87b4-8c997d36e6a2",
+        "total_income": 31367,
+        "total_expense": 17330,
+        "net_income": 70119,
+        "statement_date": "2023-09-13T00:01:57.538Z",
+        "created_at": "2023-09-12T01:06:20.812Z",
+        "updated_at": "2023-09-12T03:30:14.915Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "ba2fc7b1-3e65-4968-8bd4-b8a2e0f049bf",
+        "total_income": 10790,
+        "total_expense": 17441,
+        "net_income": 49357,
+        "statement_date": "2023-09-12T00:56:48.217Z",
+        "created_at": "2023-09-12T04:18:47.230Z",
+        "updated_at": "2023-09-12T22:02:45.106Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1dd2fee6-738b-41ef-bf98-f27ec06d6887",
+        "email": "Audra.Murphy@gmail.com",
+        "firstName": "Diego",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88884896",
+        "tenantId": null
+      },
+      {
+        "reference": "947e8767-f7ba-489f-a498-79fd2e1e5913",
+        "email": "Rodrick_DuBuque@yahoo.com",
+        "firstName": "Leonor",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53399220",
+        "tenantId": null
+      },
+      {
+        "reference": "eea476bd-93a3-4ac2-8e05-8c65e689702f",
+        "email": "Winona.Russel@hotmail.com",
+        "firstName": "Jeffrey",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43586202",
+        "tenantId": null
+      },
+      {
+        "reference": "d99d9b67-731c-4966-b669-dc0a8f1e4c69",
+        "email": "Curt46@gmail.com",
+        "firstName": "Edgardo",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3d57332-f41b-48e1-875d-126b95ce98d4",
+        "email": "Kathryn_Corwin@hotmail.com",
+        "firstName": "Sabryna",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72033331",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "09680c9e-1433-434b-b3aa-9d27814b3485",
+        "salesperson_name": "Alex Johnson",
+        "visit_date": "2023-09-12T14:43:10.876Z",
+        "purpose": "Product demonstration",
+        "notes": "Impressed with the farm's infrastructure",
+        "created_at": "2023-09-12T06:42:05.564Z",
+        "updated_at": "2023-09-12T13:16:24.126Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a485da62-2c33-4a72-839a-80572c9bc13e",
+        "salesperson_name": "Emily Davis",
+        "visit_date": "2023-09-12T05:03:17.788Z",
+        "purpose": "Negotiating a contract",
+        "notes": "Discussed potential collaboration",
+        "created_at": "2023-09-13T00:18:35.382Z",
+        "updated_at": "2023-09-12T21:31:01.967Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d303f687-78fe-4ae1-9e78-24f6ecc2c762",
+        "salesperson_name": "Ryan Thompson",
+        "visit_date": "2023-09-12T16:58:37.814Z",
+        "purpose": "Exploring partnership opportunities",
+        "notes": "Noted customer's feedback",
+        "created_at": "2023-09-12T05:47:23.713Z",
+        "updated_at": "2023-09-12T22:46:49.179Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d0769c73-e358-4a17-9b59-9954d47b0414",
+        "salesperson_name": "Olivia Martinez",
+        "visit_date": "2023-09-12T01:54:36.522Z",
+        "purpose": "Providing technical support",
+        "notes": "Addressed concerns raised by the farmer",
+        "created_at": "2023-09-12T16:53:45.203Z",
+        "updated_at": "2023-09-12T19:20:56.996Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "868dccdc-6258-4e6b-a253-1e8a50c60db8",
+        "salesperson_name": "Ethan Anderson",
+        "visit_date": "2023-09-12T07:46:05.208Z",
+        "purpose": "Training on new features",
+        "notes": "Shared success stories from other clients",
+        "created_at": "2023-09-12T12:18:43.051Z",
+        "updated_at": "2023-09-12T08:31:32.651Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "39dc9493-138d-44bc-bce3-25c2d1216809",
+        "product_name": "Freshly picked tomatoes",
+        "quantity": 31464,
+        "price": 35068,
+        "sale_date": "2023-09-12T21:49:36.450Z",
+        "buyer": "ABC Supermarket",
+        "created_at": "2023-09-12T17:35:09.336Z",
+        "updated_at": "2023-09-12T23:41:43.495Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d20d29cb-adf5-4a9e-89db-ff2a4c3073f8",
+        "product_name": "Handcrafted wooden furniture",
+        "quantity": 43478,
+        "price": 40464,
+        "sale_date": "2023-09-12T05:17:13.855Z",
+        "buyer": "XYZ Restaurant",
+        "created_at": "2023-09-12T22:18:31.691Z",
+        "updated_at": "2023-09-12T06:45:28.390Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "bdb7ef7a-d9ab-459b-a433-2bf31d1c15b8",
+        "product_name": "Organic honey jars",
+        "quantity": 58090,
+        "price": 1181,
+        "sale_date": "2023-09-12T07:41:32.748Z",
+        "buyer": "123 Bakery",
+        "created_at": "2023-09-12T04:14:24.431Z",
+        "updated_at": "2023-09-12T04:22:59.032Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "00fa604d-0560-4847-a6cb-dc382adafb89",
+        "product_name": "Artisanal bread loaves",
+        "quantity": 80350,
+        "price": 24213,
+        "sale_date": "2023-09-12T22:59:26.724Z",
+        "buyer": "456 Hotel",
+        "created_at": "2023-09-12T14:36:36.795Z",
+        "updated_at": "2023-09-12T04:54:17.700Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "be185f76-237b-4fa6-89b9-4da5cf25d077",
+        "product_name": "Handwoven woolen blankets",
+        "quantity": 9153,
+        "price": 41506,
+        "sale_date": "2023-09-12T07:47:47.711Z",
+        "buyer": "789 Catering Service",
+        "created_at": "2023-09-12T18:34:13.193Z",
+        "updated_at": "2023-09-12T20:29:00.732Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "1b26f7f0-0850-43cb-8849-f3ee71ad9a3b",
+        "product_name": "Locally sourced eggs",
+        "quantity": 26147,
+        "price": 10829,
+        "purchase_date": "2023-09-12T15:54:12.496Z",
+        "supplier": "Farmers Co-op",
+        "created_at": "2023-09-12T10:03:53.153Z",
+        "updated_at": "2023-09-12T01:46:57.137Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3358849b-e734-4364-914d-bece52d2e0cf",
+        "product_name": "Fair trade coffee beans",
+        "quantity": 34404,
+        "price": 15719,
+        "purchase_date": "2023-09-12T21:37:51.427Z",
+        "supplier": "Green Earth Trading",
+        "created_at": "2023-09-12T04:24:41.380Z",
+        "updated_at": "2023-09-12T03:26:28.241Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "9776f609-dc39-46e2-83ad-88728e80bc12",
+        "product_name": "Handmade soaps",
+        "quantity": 49207,
+        "price": 78920,
+        "purchase_date": "2023-09-12T19:11:10.654Z",
+        "supplier": "Nature's Bounty",
+        "created_at": "2023-09-12T08:22:05.761Z",
+        "updated_at": "2023-09-12T18:01:16.615Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c922999b-4e7e-4785-aa8b-989d99eb7c07",
+        "product_name": "Organic fertilizer",
+        "quantity": 23481,
+        "price": 25622,
+        "purchase_date": "2023-09-12T09:45:45.226Z",
+        "supplier": "Harvest Delights",
+        "created_at": "2023-09-12T09:53:34.820Z",
+        "updated_at": "2023-09-12T08:11:38.392Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "be8cd2d2-ccee-4f70-affe-25e74595fed1",
+        "product_name": "Artisanal chocolates",
+        "quantity": 80529,
+        "price": 39440,
+        "purchase_date": "2023-09-12T13:19:30.568Z",
+        "supplier": "Pure Bliss Farms",
+        "created_at": "2023-09-12T09:10:20.862Z",
+        "updated_at": "2023-09-13T00:14:51.967Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "d467324b-6286-4c98-9261-c5fecac3c6c8",
+        "total_income": 33634,
+        "total_expense": 68588,
+        "net_income": 11314,
+        "statement_date": "2023-09-12T14:12:39.568Z",
+        "created_at": "2023-09-12T01:51:13.767Z",
+        "updated_at": "2023-09-12T10:01:42.458Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "53b5e7d3-22d6-44af-b463-813a3b134428",
+        "total_income": 88201,
+        "total_expense": 77799,
+        "net_income": 59836,
+        "statement_date": "2023-09-12T08:07:22.190Z",
+        "created_at": "2023-09-12T16:09:21.693Z",
+        "updated_at": "2023-09-12T19:04:45.259Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "53386e2c-3608-4521-aa65-cd95d7238f6d",
+        "total_income": 27560,
+        "total_expense": 76695,
+        "net_income": 21028,
+        "statement_date": "2023-09-12T08:22:21.471Z",
+        "created_at": "2023-09-12T06:02:52.730Z",
+        "updated_at": "2023-09-12T15:47:05.389Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b99bc587-40ae-4580-b744-9ea93d0d8c16",
+        "total_income": 4285,
+        "total_expense": 88867,
+        "net_income": 79129,
+        "statement_date": "2023-09-12T03:43:32.524Z",
+        "created_at": "2023-09-12T07:36:48.386Z",
+        "updated_at": "2023-09-13T00:12:07.482Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "e8a96463-e866-41ad-839c-c445550f3b42",
+        "total_income": 75740,
+        "total_expense": 39256,
+        "net_income": 47368,
+        "statement_date": "2023-09-12T06:51:25.814Z",
+        "created_at": "2023-09-12T13:45:54.544Z",
+        "updated_at": "2023-09-12T21:23:00.143Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36229ae5-2cc9-4d8c-977a-e1e473331ec2",
+        "email": "Esteban75@hotmail.com",
+        "firstName": "Jacey",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/179443",
+        "tenantId": null
+      },
+      {
+        "reference": "3f17df6b-ebe5-42a1-b32b-d0f2bffe942b",
+        "email": "Karina_Berge85@hotmail.com",
+        "firstName": "Madison",
+        "lastName": "Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87294418",
+        "tenantId": null
+      },
+      {
+        "reference": "e6325209-c35d-4448-a799-de60e4b533db",
+        "email": "Hollis84@hotmail.com",
+        "firstName": "Bruce",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/889.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a87793b-ecd0-4471-aa82-f701ca1f0359",
+        "email": "Kristina63@hotmail.com",
+        "firstName": "Meredith",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11134586",
+        "tenantId": null
+      },
+      {
+        "reference": "a15fdca5-4a99-4614-8058-3d23d0987016",
+        "email": "Enos_Legros-Kutch@hotmail.com",
+        "firstName": "Janick",
+        "lastName": "Franecki",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5993467",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "aedd120f-8814-46d0-b9e0-40be8266a7bb",
+        "salesperson_name": "Emily Johnson",
+        "visit_date": "2023-09-12T22:25:05.125Z",
+        "purpose": "Exploring potential partnership",
+        "notes": "Impressed with the farm's sustainability practices",
+        "created_at": "2023-09-12T12:40:50.220Z",
+        "updated_at": "2023-09-12T19:34:09.946Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c6bce7a6-0c84-470b-9124-921caf161caa",
+        "salesperson_name": "Michael Anderson",
+        "visit_date": "2023-09-12T13:28:54.183Z",
+        "purpose": "Discussing new product offerings",
+        "notes": "Farm has a great reputation for quality produce",
+        "created_at": "2023-09-12T03:47:22.100Z",
+        "updated_at": "2023-09-12T03:05:39.735Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "2da6c350-f187-490d-830b-404931202477",
+        "salesperson_name": "Olivia Martinez",
+        "visit_date": "2023-09-12T17:07:24.190Z",
+        "purpose": "Providing training on farm equipment",
+        "notes": "Discussed expansion plans for the farm",
+        "created_at": "2023-09-12T12:51:31.139Z",
+        "updated_at": "2023-09-12T01:09:02.570Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "63954183-2db0-44a5-ac3c-6beee18cf69e",
+        "salesperson_name": "Daniel Thompson",
+        "visit_date": "2023-09-12T20:12:45.148Z",
+        "purpose": "Negotiating sales agreement",
+        "notes": "Salesperson provided valuable insights on market trends",
+        "created_at": "2023-09-12T09:46:12.584Z",
+        "updated_at": "2023-09-12T01:34:15.260Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f20c5235-16c9-4c8a-af75-b343f3e8de22",
+        "salesperson_name": "Sophia Garcia",
+        "visit_date": "2023-09-12T07:34:47.940Z",
+        "purpose": "Sharing market insights",
+        "notes": "Farm is interested in implementing new technology",
+        "created_at": "2023-09-12T11:55:48.615Z",
+        "updated_at": "2023-09-12T14:23:24.546Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "bd470972-ecd7-41a1-988c-70db6f1d0b6d",
+        "product_name": "Fresh Apples",
+        "quantity": 30554,
+        "price": 64936,
+        "sale_date": "2023-09-12T10:03:48.036Z",
+        "buyer": "ABC Supermarket",
+        "created_at": "2023-09-12T02:53:18.557Z",
+        "updated_at": "2023-09-12T02:55:36.483Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "bdb98e30-be57-46ee-ac77-6ebdd02eccd0",
+        "product_name": "Grass-Fed Beef",
+        "quantity": 8056,
+        "price": 92916,
+        "sale_date": "2023-09-12T20:25:41.445Z",
+        "buyer": "XYZ Restaurant",
+        "created_at": "2023-09-13T00:19:08.062Z",
+        "updated_at": "2023-09-12T20:31:23.662Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3b745ea2-ea13-4618-988f-51cf0255886c",
+        "product_name": "Organic Eggs",
+        "quantity": 14259,
+        "price": 55188,
+        "sale_date": "2023-09-12T02:38:52.544Z",
+        "buyer": "123 Farm-to-Table",
+        "created_at": "2023-09-12T04:54:42.380Z",
+        "updated_at": "2023-09-12T11:12:34.329Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "36916bbe-1d8a-4f6a-a78d-14db12ccec4a",
+        "product_name": "Honey",
+        "quantity": 12342,
+        "price": 61713,
+        "sale_date": "2023-09-12T10:28:37.772Z",
+        "buyer": "Farmers Market Co-op",
+        "created_at": "2023-09-12T01:17:06.367Z",
+        "updated_at": "2023-09-12T17:08:19.841Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cb80d4b5-9fe1-4306-9a14-b5b0a816eeee",
+        "product_name": "Handcrafted Cheese",
+        "quantity": 9186,
+        "price": 20576,
+        "sale_date": "2023-09-12T01:12:37.122Z",
+        "buyer": "Gourmet Food Store",
+        "created_at": "2023-09-12T08:39:38.793Z",
+        "updated_at": "2023-09-12T08:18:51.998Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "7fe0f10c-9b72-4602-b4b2-99b35ec99ebb",
+        "product_name": "Fertilizer",
+        "quantity": 4988,
+        "price": 87295,
+        "purchase_date": "2023-09-12T13:17:38.938Z",
+        "supplier": "AgriSupplies Inc.",
+        "created_at": "2023-09-12T07:18:14.130Z",
+        "updated_at": "2023-09-12T10:59:47.531Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "caac6f40-38d5-4b92-93bc-b36357a7971a",
+        "product_name": "Seeds",
+        "quantity": 46686,
+        "price": 45324,
+        "purchase_date": "2023-09-12T12:48:22.921Z",
+        "supplier": "SeedCo",
+        "created_at": "2023-09-12T11:16:42.761Z",
+        "updated_at": "2023-09-13T00:23:24.131Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cc0fffa7-86ab-4554-9532-c975784fd330",
+        "product_name": "Livestock Feed",
+        "quantity": 98682,
+        "price": 25025,
+        "purchase_date": "2023-09-12T06:26:17.231Z",
+        "supplier": "FeedPro",
+        "created_at": "2023-09-12T08:05:40.247Z",
+        "updated_at": "2023-09-12T18:01:12.137Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "0e0135a9-cc5f-4ba4-b0fa-d63e14f7d355",
+        "product_name": "Irrigation System",
+        "quantity": 80226,
+        "price": 90809,
+        "purchase_date": "2023-09-12T13:59:50.234Z",
+        "supplier": "WaterWorks",
+        "created_at": "2023-09-12T22:30:23.755Z",
+        "updated_at": "2023-09-12T12:59:21.145Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a76a49f8-d7d2-4614-a39e-34f4a095e211",
+        "product_name": "Farm Equipment",
+        "quantity": 85511,
+        "price": 18456,
+        "purchase_date": "2023-09-12T10:45:09.145Z",
+        "supplier": "FarmTech Solutions",
+        "created_at": "2023-09-12T05:34:55.997Z",
+        "updated_at": "2023-09-12T18:52:42.643Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "f0450848-b5d6-4eec-af7e-005b3f7f5da3",
+        "total_income": 40857,
+        "total_expense": 93212,
+        "net_income": 2350,
+        "statement_date": "2023-09-12T12:27:26.224Z",
+        "created_at": "2023-09-12T12:43:16.805Z",
+        "updated_at": "2023-09-12T18:24:51.210Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "93f2c795-a4f4-474d-9827-d8602bba6832",
+        "total_income": 10134,
+        "total_expense": 66376,
+        "net_income": 85265,
+        "statement_date": "2023-09-12T19:26:37.673Z",
+        "created_at": "2023-09-12T05:45:21.138Z",
+        "updated_at": "2023-09-12T09:08:56.688Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8794b572-58a2-4f58-b175-96bde1606b98",
+        "total_income": 68458,
+        "total_expense": 27293,
+        "net_income": 9169,
+        "statement_date": "2023-09-12T17:13:41.086Z",
+        "created_at": "2023-09-12T16:52:13.142Z",
+        "updated_at": "2023-09-12T18:34:46.567Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "0eddf2b4-3678-40b4-9478-99aa3bcc9bcd",
+        "total_income": 16499,
+        "total_expense": 70508,
+        "net_income": 68669,
+        "statement_date": "2023-09-12T07:00:30.930Z",
+        "created_at": "2023-09-12T18:17:16.144Z",
+        "updated_at": "2023-09-12T13:01:15.175Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c1e24de4-2f08-4b07-a372-ce5e1b032ce1",
+        "total_income": 88225,
+        "total_expense": 49096,
+        "net_income": 46592,
+        "statement_date": "2023-09-12T23:15:07.401Z",
+        "created_at": "2023-09-12T22:55:46.099Z",
+        "updated_at": "2023-09-12T05:46:51.249Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "77374900-ac24-4eff-8624-f755ddc4acb9",
+        "email": "Alvah.Pouros12@hotmail.com",
+        "firstName": "Myrtie",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44316946",
+        "tenantId": null
+      },
+      {
+        "reference": "82ad92ca-1171-48e6-9e2e-e10a4e0a87f6",
+        "email": "Pearlie1@hotmail.com",
+        "firstName": "Burnice",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b76c84f-c15b-4faf-9d67-794df01b4316",
+        "email": "Hazel_Greenholt99@hotmail.com",
+        "firstName": "Mauricio",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41172721",
+        "tenantId": null
+      },
+      {
+        "reference": "e53da09d-6aff-49a7-950f-a6579911f644",
+        "email": "Brielle_Bernhard61@yahoo.com",
+        "firstName": "Dahlia",
+        "lastName": "Cole-Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33c154f0-7186-43f6-9627-f1c974d865e7",
+        "email": "Paula65@hotmail.com",
+        "firstName": "Adelia",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "556685ef-a90b-4830-810a-e77a3dc0f02a",
+        "salesperson_name": "Emily Davis",
+        "visit_date": "2023-09-12T11:14:18.295Z",
+        "purpose": "Exploring potential partnership opportunities",
+        "notes": "Impressed by the farm's sustainability practices",
+        "created_at": "2023-09-12T12:13:57.143Z",
+        "updated_at": "2023-09-12T21:52:38.136Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4c7b5012-16af-4a45-b46a-5794dd95a7c6",
+        "salesperson_name": "Ryan Johnson",
+        "visit_date": "2023-09-12T04:35:07.988Z",
+        "purpose": "Discussing new product offerings",
+        "notes": "Noted the farm's commitment to quality",
+        "created_at": "2023-09-12T20:14:06.675Z",
+        "updated_at": "2023-09-12T19:33:28.245Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "93e4d865-f7ef-4cca-877a-eed2a3372bc3",
+        "salesperson_name": "Olivia Wilson",
+        "visit_date": "2023-09-12T11:58:53.758Z",
+        "purpose": "Providing product demonstration",
+        "notes": "Discussed the farm's expansion plans",
+        "created_at": "2023-09-12T19:11:15.464Z",
+        "updated_at": "2023-09-12T10:03:15.119Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "1fa2a1b9-f4c5-4f61-b4aa-4b43f2d0e3a3",
+        "salesperson_name": "Ethan Thompson",
+        "visit_date": "2023-09-12T01:34:21.627Z",
+        "purpose": "Negotiating terms and conditions",
+        "notes": "Agreed on pricing and delivery schedule",
+        "created_at": "2023-09-12T11:29:19.399Z",
+        "updated_at": "2023-09-12T09:18:11.260Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "6cd22d04-529b-42d0-99fa-946d7933b707",
+        "salesperson_name": "Sophia Anderson",
+        "visit_date": "2023-09-12T20:16:16.527Z",
+        "purpose": "Addressing customer concerns",
+        "notes": "Suggested collaboration on marketing initiatives",
+        "created_at": "2023-09-12T10:37:27.035Z",
+        "updated_at": "2023-09-12T06:00:09.763Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "9f451006-7af6-4529-9dc2-7acfa7896853",
+        "product_name": "Freshly picked strawberries",
+        "quantity": 18854,
+        "price": 55065,
+        "sale_date": "2023-09-12T03:25:46.982Z",
+        "buyer": "Gourmet grocery store",
+        "created_at": "2023-09-13T00:22:48.175Z",
+        "updated_at": "2023-09-12T18:40:50.245Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "48496752-51f7-4055-bbf1-b71c7fbf3f71",
+        "product_name": "Grass-fed beef",
+        "quantity": 61377,
+        "price": 22110,
+        "sale_date": "2023-09-12T17:43:24.558Z",
+        "buyer": "Farmers market vendor",
+        "created_at": "2023-09-12T20:06:03.869Z",
+        "updated_at": "2023-09-12T06:38:59.141Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c4ec93f6-c345-451a-a1e8-3e3ebf4ae84a",
+        "product_name": "Organic honey",
+        "quantity": 64212,
+        "price": 8749,
+        "sale_date": "2023-09-12T01:31:23.150Z",
+        "buyer": "Restaurant chain",
+        "created_at": "2023-09-12T22:54:00.971Z",
+        "updated_at": "2023-09-12T23:43:46.539Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "9a8639a8-54b6-4b72-b39c-5dceaf0f6a06",
+        "product_name": "Free-range eggs",
+        "quantity": 39080,
+        "price": 25777,
+        "sale_date": "2023-09-12T01:10:06.338Z",
+        "buyer": "Online food delivery service",
+        "created_at": "2023-09-12T10:44:42.964Z",
+        "updated_at": "2023-09-12T09:44:32.267Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b6fa02c5-247b-4bc7-aaec-a678df9ca631",
+        "product_name": "Artisanal cheese",
+        "quantity": 46168,
+        "price": 91134,
+        "sale_date": "2023-09-12T20:30:43.141Z",
+        "buyer": "Specialty food store",
+        "created_at": "2023-09-12T23:17:46.881Z",
+        "updated_at": "2023-09-12T01:34:03.583Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "438e4ec2-243e-4b4d-b9fd-738d3eb384c0",
+        "product_name": "Locally sourced vegetables",
+        "quantity": 60152,
+        "price": 62989,
+        "purchase_date": "2023-09-12T19:02:32.066Z",
+        "supplier": "Farmers cooperative",
+        "created_at": "2023-09-12T13:30:59.890Z",
+        "updated_at": "2023-09-12T23:02:26.225Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "2e3a103e-a35b-4a22-9e21-f0b98132b04b",
+        "product_name": "Handcrafted pottery",
+        "quantity": 20442,
+        "price": 81755,
+        "purchase_date": "2023-09-12T23:15:44.344Z",
+        "supplier": "Artisan collective",
+        "created_at": "2023-09-12T23:34:44.566Z",
+        "updated_at": "2023-09-12T16:17:04.600Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "db04d12f-6405-4d9d-a193-8ce73ba32973",
+        "product_name": "Natural skincare products",
+        "quantity": 91950,
+        "price": 97421,
+        "purchase_date": "2023-09-12T04:39:29.987Z",
+        "supplier": "Social enterprise",
+        "created_at": "2023-09-12T15:24:50.514Z",
+        "updated_at": "2023-09-12T09:29:54.351Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d7931c78-6a85-4e90-9d9a-d69726dd81cd",
+        "product_name": "Fair-trade coffee",
+        "quantity": 25510,
+        "price": 64479,
+        "purchase_date": "2023-09-12T08:39:45.057Z",
+        "supplier": "Fair-trade organization",
+        "created_at": "2023-09-12T19:34:33.356Z",
+        "updated_at": "2023-09-12T15:30:53.906Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "bf3311ea-15e0-4f82-8270-c847916d24f1",
+        "product_name": "Handwoven textiles",
+        "quantity": 26590,
+        "price": 28619,
+        "purchase_date": "2023-09-12T13:25:04.794Z",
+        "supplier": "Small-scale producer",
+        "created_at": "2023-09-12T07:23:33.525Z",
+        "updated_at": "2023-09-12T09:57:48.446Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "7278b0e3-2cb6-4671-8565-9865f6ad5f24",
+        "total_income": 51902,
+        "total_expense": 10331,
+        "net_income": 78765,
+        "statement_date": "2023-09-12T13:12:23.271Z",
+        "created_at": "2023-09-12T03:03:54.194Z",
+        "updated_at": "2023-09-12T20:50:40.330Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4d91d963-7d7c-4ca7-b4ed-36c80c48b052",
+        "total_income": 93377,
+        "total_expense": 20252,
+        "net_income": 42802,
+        "statement_date": "2023-09-12T17:38:45.093Z",
+        "created_at": "2023-09-12T06:49:50.173Z",
+        "updated_at": "2023-09-12T23:55:14.953Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "70209ec0-e063-435e-9275-2298ec3c5849",
+        "total_income": 27366,
+        "total_expense": 29603,
+        "net_income": 1568,
+        "statement_date": "2023-09-12T13:12:09.471Z",
+        "created_at": "2023-09-12T18:48:15.763Z",
+        "updated_at": "2023-09-12T13:42:55.481Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d39f0b94-0785-4a12-948c-64b99bc69670",
+        "total_income": 50687,
+        "total_expense": 21486,
+        "net_income": 40168,
+        "statement_date": "2023-09-12T14:39:36.947Z",
+        "created_at": "2023-09-12T19:20:13.724Z",
+        "updated_at": "2023-09-12T17:12:49.108Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cf5ab1ae-24a4-40f0-9d16-f49df0742940",
+        "total_income": 31725,
+        "total_expense": 78903,
+        "net_income": 43142,
+        "statement_date": "2023-09-12T01:20:36.961Z",
+        "created_at": "2023-09-12T02:53:00.240Z",
+        "updated_at": "2023-09-12T03:40:50.675Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "33d49c92-f75a-4e28-85d0-6b4d92822361",
+        "email": "Mikayla80@hotmail.com",
+        "firstName": "Richie",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/512.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0231befb-7012-42b9-a2fc-198741f685f0",
+        "email": "Porter62@hotmail.com",
+        "firstName": "Uriel",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/543.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a4044f95-a1ec-42dd-a183-16361955d129",
+        "email": "Fae.Hodkiewicz@hotmail.com",
+        "firstName": "Elyse",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/114.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1b30764-91d9-4bc1-8fae-1e8dc67fe9f2",
+        "email": "Seamus_Quigley@yahoo.com",
+        "firstName": "Dawson",
+        "lastName": "Braun-Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83970410",
+        "tenantId": null
+      },
+      {
+        "reference": "cd3b7eb0-a5ba-492d-ba1f-5e18a0e5730c",
+        "email": "Dominique48@gmail.com",
+        "firstName": "Telly",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31179122",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "9fd06071-1a49-41a2-a5b3-e558bb872eb3",
+        "salesperson_name": "Alex",
+        "visit_date": "2023-09-12T03:33:51.265Z",
+        "purpose": "Exploring partnership opportunities",
+        "notes": "Impressed with the farm's sustainability practices",
+        "created_at": "2023-09-12T09:17:29.694Z",
+        "updated_at": "2023-09-12T16:28:05.736Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8e7bbcfa-fdf8-4655-8b83-33add71eab23",
+        "salesperson_name": "Olivia",
+        "visit_date": "2023-09-12T08:18:47.391Z",
+        "purpose": "Presenting new product line",
+        "notes": "Noted potential for collaboration in the future",
+        "created_at": "2023-09-12T12:00:30.926Z",
+        "updated_at": "2023-09-12T05:03:21.791Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8babb9e8-bdad-4bec-8354-8f309d804a1c",
+        "salesperson_name": "Daniel",
+        "visit_date": "2023-09-12T10:49:31.880Z",
+        "purpose": "Discussing contract terms",
+        "notes": "Discussed expansion plans",
+        "created_at": "2023-09-12T17:15:54.431Z",
+        "updated_at": "2023-09-12T01:13:11.188Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "5f0272f4-2cf6-497b-84f6-a9dc73130c39",
+        "salesperson_name": "Sophia",
+        "visit_date": "2023-09-12T07:58:32.914Z",
+        "purpose": "Providing product demonstration",
+        "notes": "Agreed on terms and conditions",
+        "created_at": "2023-09-12T09:52:55.042Z",
+        "updated_at": "2023-09-12T13:38:07.945Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b7ea6367-9384-4cc6-a9ce-99704328d307",
+        "salesperson_name": "William",
+        "visit_date": "2023-09-12T21:17:26.078Z",
+        "purpose": "Negotiating pricing",
+        "notes": "Highlighted unique selling points",
+        "created_at": "2023-09-12T12:17:06.386Z",
+        "updated_at": "2023-09-12T15:11:50.180Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "38662aa6-cd5e-4ccf-ba1a-a4de88fd58f0",
+        "product_name": "Organic Apples",
+        "quantity": 64611,
+        "price": 7511,
+        "sale_date": "2023-09-12T19:38:56.398Z",
+        "buyer": "ABC Supermarket",
+        "created_at": "2023-09-12T06:00:51.584Z",
+        "updated_at": "2023-09-12T08:32:52.833Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "7bb7672d-6fca-4fb8-8a38-59072e4894b7",
+        "product_name": "Artisanal Cheese",
+        "quantity": 81652,
+        "price": 49878,
+        "sale_date": "2023-09-12T01:21:51.198Z",
+        "buyer": "XYZ Restaurant",
+        "created_at": "2023-09-12T05:39:33.174Z",
+        "updated_at": "2023-09-12T09:10:01.871Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "06562ead-2b7a-4113-ba76-e1e3b35e1583",
+        "product_name": "Grass-fed Beef",
+        "quantity": 21801,
+        "price": 41745,
+        "sale_date": "2023-09-12T05:10:40.749Z",
+        "buyer": "123 Catering",
+        "created_at": "2023-09-12T07:19:14.219Z",
+        "updated_at": "2023-09-12T14:52:14.579Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "44fde83c-beef-41e1-88c4-4d809830f964",
+        "product_name": "Fresh Seafood",
+        "quantity": 46813,
+        "price": 71273,
+        "sale_date": "2023-09-12T23:06:46.305Z",
+        "buyer": "LMN Grocery",
+        "created_at": "2023-09-12T18:02:20.959Z",
+        "updated_at": "2023-09-12T20:08:33.013Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "77d1b6c5-fe0c-4c64-b7cc-568776ac84d9",
+        "product_name": "Free-range Eggs",
+        "quantity": 80240,
+        "price": 48717,
+        "sale_date": "2023-09-12T14:44:11.959Z",
+        "buyer": "DEF Hotel",
+        "created_at": "2023-09-12T09:19:14.492Z",
+        "updated_at": "2023-09-12T07:20:12.847Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "b791cd06-dfd0-4b6d-9490-041a789d6606",
+        "product_name": "Organic Tomatoes",
+        "quantity": 78707,
+        "price": 75340,
+        "purchase_date": "2023-09-13T00:06:11.024Z",
+        "supplier": "PQR Farms",
+        "created_at": "2023-09-12T15:03:11.440Z",
+        "updated_at": "2023-09-12T03:26:36.804Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f2d86d2b-ac8e-42ac-94a8-35c8fd65a5ed",
+        "product_name": "Handcrafted Soap",
+        "quantity": 70322,
+        "price": 55440,
+        "purchase_date": "2023-09-12T16:44:22.738Z",
+        "supplier": "UVW Co.",
+        "created_at": "2023-09-12T13:45:05.237Z",
+        "updated_at": "2023-09-12T03:52:43.220Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4d70a2cd-ccb7-48cf-8be0-df82cf9f752a",
+        "product_name": "Locally-sourced Honey",
+        "quantity": 5859,
+        "price": 63267,
+        "purchase_date": "2023-09-12T08:45:20.240Z",
+        "supplier": "456 Distributors",
+        "created_at": "2023-09-12T06:34:26.871Z",
+        "updated_at": "2023-09-12T02:48:50.909Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f40eb049-588f-4f6c-a725-2af20ac07640",
+        "product_name": "Fair Trade Coffee",
+        "quantity": 94941,
+        "price": 17367,
+        "purchase_date": "2023-09-12T03:27:11.343Z",
+        "supplier": "RST Suppliers",
+        "created_at": "2023-09-12T09:08:26.620Z",
+        "updated_at": "2023-09-12T10:18:48.772Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "0417459f-a879-4592-9632-ccee9b1df611",
+        "product_name": "Artisanal Bread",
+        "quantity": 12832,
+        "price": 92465,
+        "purchase_date": "2023-09-12T21:32:47.950Z",
+        "supplier": "GHI Producers",
+        "created_at": "2023-09-12T21:37:30.228Z",
+        "updated_at": "2023-09-12T01:48:20.701Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "bf82b93a-5adc-4d25-b457-cf8b349ab839",
+        "total_income": 52273,
+        "total_expense": 86375,
+        "net_income": 82115,
+        "statement_date": "2023-09-12T03:15:08.130Z",
+        "created_at": "2023-09-12T23:50:43.701Z",
+        "updated_at": "2023-09-12T01:29:37.459Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "2297517c-7425-49a4-8d02-86763eeb9c32",
+        "total_income": 44186,
+        "total_expense": 13460,
+        "net_income": 41564,
+        "statement_date": "2023-09-12T21:24:11.971Z",
+        "created_at": "2023-09-12T03:05:45.876Z",
+        "updated_at": "2023-09-12T16:47:09.667Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cb81c81f-c7bd-4651-bab1-eed7f7769754",
+        "total_income": 57333,
+        "total_expense": 56533,
+        "net_income": 41087,
+        "statement_date": "2023-09-12T16:08:31.883Z",
+        "created_at": "2023-09-12T08:00:17.340Z",
+        "updated_at": "2023-09-12T15:28:39.753Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "dc8b78ec-d5bc-454c-9bb3-b8d5e8e6a0b4",
+        "total_income": 22384,
+        "total_expense": 606,
+        "net_income": 63408,
+        "statement_date": "2023-09-12T19:56:00.260Z",
+        "created_at": "2023-09-12T11:48:14.582Z",
+        "updated_at": "2023-09-12T19:03:28.238Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "61bf68c6-34bd-4783-8811-f3add9fdb662",
+        "total_income": 35257,
+        "total_expense": 56677,
+        "net_income": 74798,
+        "statement_date": "2023-09-12T15:45:28.402Z",
+        "created_at": "2023-09-12T10:52:34.653Z",
+        "updated_at": "2023-09-12T17:51:00.985Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fbd83d7b-dfd7-427f-a3ea-5c35d8189459",
+        "email": "Hilton50@hotmail.com",
+        "firstName": "Mariah",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79916956",
+        "tenantId": null
+      },
+      {
+        "reference": "6057e573-f08b-4825-85de-57bd35ae5abd",
+        "email": "Cleora23@gmail.com",
+        "firstName": "Aubrey",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33454606",
+        "tenantId": null
+      },
+      {
+        "reference": "7e002648-81c4-47a4-ac51-4ee7f358c513",
+        "email": "Sadie7@yahoo.com",
+        "firstName": "Gianni",
+        "lastName": "Schiller-Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/605.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c04d057-6713-4c0b-a84d-2b3a0957a6db",
+        "email": "Izabella.Maggio@hotmail.com",
+        "firstName": "Corene",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/334.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c2e6f7cf-33d4-4c49-842a-93f5b85f6ba7",
+        "email": "Maryjane_Gutkowski@gmail.com",
+        "firstName": "Evalyn",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62726952",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "a1dad9dc-b5fb-41e2-81e6-fc85fcc0ce40",
+        "salesperson_name": "John Smith",
+        "visit_date": "2023-09-12T22:40:57.592Z",
+        "purpose": "Exploring partnership opportunities",
+        "notes": "Impressed with the farm's facilities",
+        "created_at": "2023-09-12T19:46:34.452Z",
+        "updated_at": "2023-09-12T08:27:36.338Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "76bcee8a-3af0-4aeb-aeaf-f5955a8179c7",
+        "salesperson_name": "Emily Johnson",
+        "visit_date": "2023-09-12T14:39:47.967Z",
+        "purpose": "Providing product demonstration",
+        "notes": "Positive feedback from the farmer",
+        "created_at": "2023-09-12T06:16:59.641Z",
+        "updated_at": "2023-09-12T08:49:14.512Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c94af8a8-0a90-4a1e-9c6f-fa2c03ba9bbd",
+        "salesperson_name": "Michael Brown",
+        "visit_date": "2023-09-12T03:39:19.162Z",
+        "purpose": "Discussing contract terms",
+        "notes": "Identified potential areas for improvement",
+        "created_at": "2023-09-12T01:47:03.880Z",
+        "updated_at": "2023-09-12T23:10:04.739Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "330712a4-a21d-4ee3-96a4-f63609656061",
+        "salesperson_name": "Sarah Davis",
+        "visit_date": "2023-09-12T20:05:53.282Z",
+        "purpose": "Conducting market research",
+        "notes": "Noted the farm's commitment to sustainability",
+        "created_at": "2023-09-12T13:44:37.356Z",
+        "updated_at": "2023-09-12T18:43:26.335Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "e397c5b0-52c7-4762-9fb5-5bd8888ea8e9",
+        "salesperson_name": "David Wilson",
+        "visit_date": "2023-09-12T07:07:58.081Z",
+        "purpose": "Delivering samples",
+        "notes": "Discussed pricing and delivery logistics",
+        "created_at": "2023-09-12T22:39:36.726Z",
+        "updated_at": "2023-09-12T04:25:22.594Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "51500573-f99f-4bc4-9e0b-3a5de404986e",
+        "product_name": "Fresh Apples",
+        "quantity": 20011,
+        "price": 78421,
+        "sale_date": "2023-09-12T16:22:42.576Z",
+        "buyer": "Supermarket Chain",
+        "created_at": "2023-09-12T09:23:18.196Z",
+        "updated_at": "2023-09-12T06:58:52.593Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "212f8634-5ffc-4f88-984c-67154d8239ea",
+        "product_name": "Grass-fed Beef",
+        "quantity": 54333,
+        "price": 22157,
+        "sale_date": "2023-09-12T20:29:56.903Z",
+        "buyer": "Restaurant Group",
+        "created_at": "2023-09-12T09:48:51.828Z",
+        "updated_at": "2023-09-12T09:07:58.821Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "451936d4-e54e-4196-a48f-af74a98b5817",
+        "product_name": "Organic Milk",
+        "quantity": 91812,
+        "price": 82916,
+        "sale_date": "2023-09-12T23:40:15.913Z",
+        "buyer": "Health Food Store",
+        "created_at": "2023-09-12T20:47:25.829Z",
+        "updated_at": "2023-09-12T21:31:41.063Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "3a34557e-624e-4a92-9707-6f7c48f60f06",
+        "product_name": "Herbal Tea",
+        "quantity": 94451,
+        "price": 17613,
+        "sale_date": "2023-09-12T21:41:36.724Z",
+        "buyer": "Online Grocery Platform",
+        "created_at": "2023-09-12T15:50:02.350Z",
+        "updated_at": "2023-09-12T08:22:07.935Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f5ede267-fd68-462c-aa15-8b333268e315",
+        "product_name": "Homegrown Tomatoes",
+        "quantity": 23925,
+        "price": 30819,
+        "sale_date": "2023-09-12T12:18:46.389Z",
+        "buyer": "Farmers' Market Vendor",
+        "created_at": "2023-09-12T21:31:13.688Z",
+        "updated_at": "2023-09-12T18:36:52.880Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "0956190d-f3aa-44ef-84ff-e1772d9fca9b",
+        "product_name": "Organic Eggs",
+        "quantity": 79868,
+        "price": 47583,
+        "purchase_date": "2023-09-12T02:26:39.078Z",
+        "supplier": "Small-scale Farm",
+        "created_at": "2023-09-12T05:31:58.347Z",
+        "updated_at": "2023-09-12T09:37:51.346Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b9a3bf90-4cb3-4139-9a27-1c681b9ca6ac",
+        "product_name": "Artisan Cheese",
+        "quantity": 36895,
+        "price": 37687,
+        "purchase_date": "2023-09-12T18:15:14.162Z",
+        "supplier": "Artisanal Creamery",
+        "created_at": "2023-09-12T05:37:00.489Z",
+        "updated_at": "2023-09-12T18:39:44.938Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b55ba41a-295f-4429-b086-32958a6e757d",
+        "product_name": "Locally Roasted Coffee",
+        "quantity": 75063,
+        "price": 58322,
+        "purchase_date": "2023-09-12T12:17:00.639Z",
+        "supplier": "Local Coffee Roaster",
+        "created_at": "2023-09-12T04:14:21.006Z",
+        "updated_at": "2023-09-12T12:16:33.711Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8d8ed376-fdce-43f5-848c-42e571255a27",
+        "product_name": "Handcrafted Soap",
+        "quantity": 19160,
+        "price": 74695,
+        "purchase_date": "2023-09-12T23:36:49.575Z",
+        "supplier": "Handmade Soap Company",
+        "created_at": "2023-09-12T20:40:41.991Z",
+        "updated_at": "2023-09-12T17:09:08.659Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "dbde695b-2101-4e77-afee-b5a00df55fb6",
+        "product_name": "Fresh Honey",
+        "quantity": 77347,
+        "price": 42629,
+        "purchase_date": "2023-09-12T06:14:38.316Z",
+        "supplier": "Beekeeper's Association",
+        "created_at": "2023-09-12T09:47:11.054Z",
+        "updated_at": "2023-09-12T18:33:19.870Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "4660aeec-87b5-4dbd-82ae-23df7cb19cb7",
+        "total_income": 18174,
+        "total_expense": 49862,
+        "net_income": 184,
+        "statement_date": "2023-09-12T23:31:27.606Z",
+        "created_at": "2023-09-12T01:50:52.313Z",
+        "updated_at": "2023-09-12T11:05:01.797Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f1d8cf53-1c0f-41cc-a7f9-9e11b032381e",
+        "total_income": 47841,
+        "total_expense": 505,
+        "net_income": 4908,
+        "statement_date": "2023-09-12T06:25:40.284Z",
+        "created_at": "2023-09-12T11:12:47.227Z",
+        "updated_at": "2023-09-12T05:43:32.787Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4d154fc6-1bed-4542-84dc-217ffd394188",
+        "total_income": 29211,
+        "total_expense": 25774,
+        "net_income": 26471,
+        "statement_date": "2023-09-12T04:14:07.439Z",
+        "created_at": "2023-09-12T18:13:15.831Z",
+        "updated_at": "2023-09-12T19:29:31.309Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "5bbe4cd2-3cbe-4528-9194-08dc6cc8a69e",
+        "total_income": 26109,
+        "total_expense": 42719,
+        "net_income": 86149,
+        "statement_date": "2023-09-12T08:24:18.442Z",
+        "created_at": "2023-09-12T21:48:41.289Z",
+        "updated_at": "2023-09-12T18:24:01.970Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c84d10f1-d59c-4315-8ff0-bbdadf6cedbb",
+        "total_income": 12706,
+        "total_expense": 19529,
+        "net_income": 6971,
+        "statement_date": "2023-09-12T05:15:03.608Z",
+        "created_at": "2023-09-12T15:17:46.332Z",
+        "updated_at": "2023-09-12T12:39:23.950Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "38b3aaef-6c26-41f6-9e04-5b76fdf51b49",
+        "email": "Abby65@yahoo.com",
+        "firstName": "Adrienne",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80398157",
+        "tenantId": null
+      },
+      {
+        "reference": "f45e3ed1-6e50-41d4-9f43-1550b1c19a18",
+        "email": "Greyson82@yahoo.com",
+        "firstName": "Erna",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fbc720a5-61ea-4b44-aedd-6232e5462477",
+        "email": "Brayan.Jacobson@gmail.com",
+        "firstName": "Reggie",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86408215",
+        "tenantId": null
+      },
+      {
+        "reference": "0cd33082-11b6-42d5-89b1-8e2334daa481",
+        "email": "Ashlee_Beier60@yahoo.com",
+        "firstName": "Nova",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60877642",
+        "tenantId": null
+      },
+      {
+        "reference": "35c0e69b-8841-4007-84d1-6316f0147b5c",
+        "email": "Emie.Cruickshank@gmail.com",
+        "firstName": "Jacques",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "347ceef7-c1b3-4e90-9b1e-ca256dbc1627",
+        "salesperson_name": "John Smith",
+        "visit_date": "2023-09-12T21:05:02.711Z",
+        "purpose": "Discuss new product offerings",
+        "notes": "Impressed with the farm's cleanliness",
+        "created_at": "2023-09-12T02:26:19.088Z",
+        "updated_at": "2023-09-12T23:09:06.794Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "e86a446b-d3ec-413f-87fa-935409ab7688",
+        "salesperson_name": "Emily Johnson",
+        "visit_date": "2023-09-12T12:23:26.314Z",
+        "purpose": "Provide training on farm equipment",
+        "notes": "Noted potential for future collaboration",
+        "created_at": "2023-09-12T06:32:51.362Z",
+        "updated_at": "2023-09-12T02:36:45.127Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "9aeef22b-a33e-448f-81fc-61aabb21add1",
+        "salesperson_name": "Michael Davis",
+        "visit_date": "2023-09-12T09:31:42.964Z",
+        "purpose": "Review sales performance",
+        "notes": "Discussed upcoming trade shows",
+        "created_at": "2023-09-12T03:13:49.110Z",
+        "updated_at": "2023-09-12T04:13:06.624Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "9bf9ebed-2f27-42f4-9618-a0a69bfa8ff2",
+        "salesperson_name": "Sarah Wilson",
+        "visit_date": "2023-09-12T12:57:01.953Z",
+        "purpose": "Introduce new promotions",
+        "notes": "Recommended product diversification",
+        "created_at": "2023-09-12T02:51:40.111Z",
+        "updated_at": "2023-09-12T16:12:05.028Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "50ebc93a-4da3-4bbc-8b49-baba59917e6a",
+        "salesperson_name": "David Thompson",
+        "visit_date": "2023-09-12T18:25:22.988Z",
+        "purpose": "Address customer concerns",
+        "notes": "Addressed pricing concerns",
+        "created_at": "2023-09-12T18:01:46.893Z",
+        "updated_at": "2023-09-12T13:53:10.104Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "feaa4ed3-796f-4462-b64e-84074bfceb48",
+        "product_name": "Fresh Apples",
+        "quantity": 77366,
+        "price": 86393,
+        "sale_date": "2023-09-12T10:23:15.687Z",
+        "buyer": "Healthy Eats Grocery",
+        "created_at": "2023-09-13T00:10:49.822Z",
+        "updated_at": "2023-09-12T06:47:33.617Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b175ef43-0d3c-404d-8032-75650a9a5e43",
+        "product_name": "Organic Eggs",
+        "quantity": 1025,
+        "price": 29846,
+        "sale_date": "2023-09-12T07:19:31.881Z",
+        "buyer": "Farm-to-Table Restaurant",
+        "created_at": "2023-09-12T21:34:41.762Z",
+        "updated_at": "2023-09-12T16:21:05.538Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "78439de0-5b97-4348-8e42-0b064549231c",
+        "product_name": "Grass-fed Beef",
+        "quantity": 41396,
+        "price": 52640,
+        "sale_date": "2023-09-12T11:03:46.781Z",
+        "buyer": "Gourmet Food Store",
+        "created_at": "2023-09-12T11:37:46.023Z",
+        "updated_at": "2023-09-12T13:42:17.609Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "4825e3d1-84b5-4ac2-9352-94fbbcc1a00f",
+        "product_name": "Handcrafted Cheese",
+        "quantity": 51675,
+        "price": 74805,
+        "sale_date": "2023-09-12T23:05:03.708Z",
+        "buyer": "Community Co-op",
+        "created_at": "2023-09-12T08:30:37.012Z",
+        "updated_at": "2023-09-12T03:11:51.880Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "d6b67b02-ed15-4bff-90b4-2372da53ce65",
+        "product_name": "Locally-sourced Honey",
+        "quantity": 67959,
+        "price": 83706,
+        "sale_date": "2023-09-12T07:35:29.898Z",
+        "buyer": "Online Farmers Market",
+        "created_at": "2023-09-12T20:36:23.771Z",
+        "updated_at": "2023-09-12T10:07:32.885Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "53d06324-c416-438c-9ea4-d52919ebfd79",
+        "product_name": "Organic Fertilizer",
+        "quantity": 13993,
+        "price": 96311,
+        "purchase_date": "2023-09-12T18:45:27.134Z",
+        "supplier": "AgriSupply Co.",
+        "created_at": "2023-09-12T09:59:52.081Z",
+        "updated_at": "2023-09-12T16:42:11.502Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "37e2fd78-e94b-42cf-afe6-328b11000166",
+        "product_name": "Irrigation System",
+        "quantity": 86070,
+        "price": 69090,
+        "purchase_date": "2023-09-12T04:45:22.071Z",
+        "supplier": "FarmTech Solutions",
+        "created_at": "2023-09-12T23:29:55.974Z",
+        "updated_at": "2023-09-12T08:26:40.648Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a5c1bd9e-8e55-44c5-bb43-787bb6aef137",
+        "product_name": "Tractor",
+        "quantity": 43893,
+        "price": 56977,
+        "purchase_date": "2023-09-12T01:41:04.640Z",
+        "supplier": "Green Thumb Supply",
+        "created_at": "2023-09-12T23:19:32.484Z",
+        "updated_at": "2023-09-12T05:10:34.381Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "75cbb012-a87c-4dc1-a956-07c7e9fc13f8",
+        "product_name": "Seedlings",
+        "quantity": 34531,
+        "price": 729,
+        "purchase_date": "2023-09-12T23:08:38.618Z",
+        "supplier": "Harvest Equipment",
+        "created_at": "2023-09-12T04:00:39.550Z",
+        "updated_at": "2023-09-12T14:23:18.401Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "7620da33-8251-4965-9fc7-0e9ee7fb4a06",
+        "product_name": "Livestock Feed",
+        "quantity": 45961,
+        "price": 37220,
+        "purchase_date": "2023-09-12T01:43:55.562Z",
+        "supplier": "CropCare Industries",
+        "created_at": "2023-09-12T17:13:14.743Z",
+        "updated_at": "2023-09-12T10:15:51.112Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "a1b73e47-aba9-4b6d-87c3-957a19ceb799",
+        "total_income": 93982,
+        "total_expense": 74120,
+        "net_income": 98800,
+        "statement_date": "2023-09-12T02:31:13.190Z",
+        "created_at": "2023-09-12T12:59:25.606Z",
+        "updated_at": "2023-09-12T11:31:02.097Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "effd82c8-fd7a-4b46-91bc-e6d00437bbc3",
+        "total_income": 74832,
+        "total_expense": 74443,
+        "net_income": 55592,
+        "statement_date": "2023-09-12T07:21:53.053Z",
+        "created_at": "2023-09-13T00:24:09.787Z",
+        "updated_at": "2023-09-12T21:48:59.881Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "30ad7664-013c-4478-9339-1cca90e0c3e1",
+        "total_income": 52365,
+        "total_expense": 73892,
+        "net_income": 23053,
+        "statement_date": "2023-09-12T02:15:26.820Z",
+        "created_at": "2023-09-12T15:14:44.724Z",
+        "updated_at": "2023-09-12T21:44:44.839Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "2937a796-fa78-49e2-b8a7-c79ca9478692",
+        "total_income": 88790,
+        "total_expense": 74750,
+        "net_income": 77723,
+        "statement_date": "2023-09-12T03:26:56.820Z",
+        "created_at": "2023-09-12T06:35:29.487Z",
+        "updated_at": "2023-09-12T03:21:14.565Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "545b23b1-a668-430a-b408-984678068070",
+        "total_income": 9733,
+        "total_expense": 89527,
+        "net_income": 12220,
+        "statement_date": "2023-09-12T21:09:44.599Z",
+        "created_at": "2023-09-12T21:23:23.025Z",
+        "updated_at": "2023-09-12T13:15:50.856Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f408182c-43f1-4662-965c-a6624e5cbfa7",
+        "email": "Dagmar21@yahoo.com",
+        "firstName": "Lambert",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32585471",
+        "tenantId": null
+      },
+      {
+        "reference": "4a978656-9427-4a9d-b0fe-26d7d497447d",
+        "email": "Malachi_Vandervort31@gmail.com",
+        "firstName": "Lori",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66385878",
+        "tenantId": null
+      },
+      {
+        "reference": "c5a870b4-fdcb-4ebd-b141-77e70722eb71",
+        "email": "Otha56@hotmail.com",
+        "firstName": "Adah",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1137.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6d2bd668-b2db-44e1-8db2-61a1471d50ab",
+        "email": "Natasha.Morar79@hotmail.com",
+        "firstName": "Selmer",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "118117c3-4982-4252-8cac-d8b993379fb4",
+        "email": "Alfredo_Swift@yahoo.com",
+        "firstName": "Joaquin",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52126089",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "visit": [
+      {
+        "id": "478677f3-5c36-4183-8f02-2e6fed960c33",
+        "salesperson_name": "Emily Johnson",
+        "visit_date": "2023-09-13T00:28:09.083Z",
+        "purpose": "Discuss new product offerings",
+        "notes": "Impressed with the farm's facilities",
+        "created_at": "2023-09-12T12:43:40.021Z",
+        "updated_at": "2023-09-12T18:31:43.998Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "8c88a5a0-09fd-4acf-a0fd-884afa63d275",
+        "salesperson_name": "Daniel Anderson",
+        "visit_date": "2023-09-12T21:06:24.832Z",
+        "purpose": "Provide product demonstration",
+        "notes": "Customer expressed interest in expanding product line",
+        "created_at": "2023-09-12T22:55:38.779Z",
+        "updated_at": "2023-09-12T05:16:38.155Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c78faf4c-2726-4646-84bd-81c08a7d1e11",
+        "salesperson_name": "Olivia Thompson",
+        "visit_date": "2023-09-12T23:00:42.042Z",
+        "purpose": "Negotiate pricing and terms",
+        "notes": "Salesperson recommended implementing new marketing strategy",
+        "created_at": "2023-09-12T14:26:31.819Z",
+        "updated_at": "2023-09-12T22:44:42.332Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "cd7239ff-114c-4988-8672-c6e82190c254",
+        "salesperson_name": "William Davis",
+        "visit_date": "2023-09-12T16:00:50.494Z",
+        "purpose": "Review sales performance",
+        "notes": "Discussed potential collaboration opportunities",
+        "created_at": "2023-09-12T18:36:17.157Z",
+        "updated_at": "2023-09-12T03:45:06.978Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "c58955a0-5699-4bd3-87d1-fc17771a459a",
+        "salesperson_name": "Sophia Martinez",
+        "visit_date": "2023-09-12T20:19:35.908Z",
+        "purpose": "Resolve customer issues",
+        "notes": "Noted customer's feedback on product quality",
+        "created_at": "2023-09-12T08:35:56.308Z",
+        "updated_at": "2023-09-12T05:22:02.465Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "b3d0ebf8-8fb9-4eae-9597-a980723da182",
+        "product_name": "Fresh Apples",
+        "quantity": 71716,
+        "price": 53522,
+        "sale_date": "2023-09-12T10:44:08.648Z",
+        "buyer": "ABC Supermarket",
+        "created_at": "2023-09-12T04:08:11.748Z",
+        "updated_at": "2023-09-12T16:52:50.967Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "177c872c-b57e-4486-a46d-f55596771108",
+        "product_name": "Grass-fed Beef",
+        "quantity": 30996,
+        "price": 43915,
+        "sale_date": "2023-09-12T21:22:20.128Z",
+        "buyer": "XYZ Restaurant",
+        "created_at": "2023-09-12T19:45:12.965Z",
+        "updated_at": "2023-09-12T11:46:32.650Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "29bbfe4d-b9a0-4f0b-9d41-9d44909e633f",
+        "product_name": "Organic Eggs",
+        "quantity": 61661,
+        "price": 86751,
+        "sale_date": "2023-09-12T09:17:46.730Z",
+        "buyer": "123 Co-op",
+        "created_at": "2023-09-12T15:37:17.338Z",
+        "updated_at": "2023-09-12T18:15:38.001Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "f3ab0f3f-3369-4442-976e-e68f2eb5b0e2",
+        "product_name": "Handcrafted Soaps",
+        "quantity": 64827,
+        "price": 34557,
+        "sale_date": "2023-09-12T13:21:53.357Z",
+        "buyer": "Farmers Market",
+        "created_at": "2023-09-12T11:39:30.187Z",
+        "updated_at": "2023-09-12T12:11:29.173Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a3699ebc-82bb-49f6-a20f-aa9aa049d60f",
+        "product_name": "Artisanal Cheese",
+        "quantity": 69344,
+        "price": 17749,
+        "sale_date": "2023-09-12T02:12:25.947Z",
+        "buyer": "Gourmet Deli",
+        "created_at": "2023-09-12T16:44:06.901Z",
+        "updated_at": "2023-09-12T23:40:23.604Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "7cb379e9-9f8e-4afd-95d8-72708526f852",
+        "product_name": "Organic Tomatoes",
+        "quantity": 40819,
+        "price": 29525,
+        "purchase_date": "2023-09-12T03:47:22.014Z",
+        "supplier": "Farm Fresh Produce",
+        "created_at": "2023-09-12T15:53:58.551Z",
+        "updated_at": "2023-09-12T17:10:45.325Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b75a4995-2758-4d28-9d4c-ed9d2b96cf3b",
+        "product_name": "Free-range Chicken",
+        "quantity": 40072,
+        "price": 81736,
+        "purchase_date": "2023-09-12T04:15:11.664Z",
+        "supplier": "Happy Hen Farm",
+        "created_at": "2023-09-12T02:58:06.684Z",
+        "updated_at": "2023-09-13T00:45:58.374Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a4e95871-4e88-493c-b0ed-d6fab7487d53",
+        "product_name": "Locally-sourced Honey",
+        "quantity": 49601,
+        "price": 79765,
+        "purchase_date": "2023-09-12T01:00:17.443Z",
+        "supplier": "Local Beekeeper's Association",
+        "created_at": "2023-09-12T01:30:43.467Z",
+        "updated_at": "2023-09-12T20:33:57.578Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "b913d795-04cd-40aa-b9e7-9230004b1219",
+        "product_name": "Handmade Candles",
+        "quantity": 15718,
+        "price": 52273,
+        "purchase_date": "2023-09-12T22:13:27.174Z",
+        "supplier": "Crafty Creations",
+        "created_at": "2023-09-12T16:58:50.083Z",
+        "updated_at": "2023-09-12T10:40:00.063Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a660c3d5-df1b-4b90-abf6-3005175d3db4",
+        "product_name": "Artisan Bread",
+        "quantity": 6845,
+        "price": 23796,
+        "purchase_date": "2023-09-12T06:56:21.509Z",
+        "supplier": "Baker's Delight",
+        "created_at": "2023-09-12T19:02:33.455Z",
+        "updated_at": "2023-09-12T09:47:14.903Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "financial_statement": [
+      {
+        "id": "e2c9dae2-5223-4c17-8e7a-016894e25dc4",
+        "total_income": 91321,
+        "total_expense": 73435,
+        "net_income": 80664,
+        "statement_date": "2023-09-12T04:32:56.770Z",
+        "created_at": "2023-09-12T19:06:09.942Z",
+        "updated_at": "2023-09-12T18:27:45.300Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "e8baef72-8588-4eed-a49a-b497cf34f432",
+        "total_income": 10264,
+        "total_expense": 77758,
+        "net_income": 87899,
+        "statement_date": "2023-09-12T01:27:21.106Z",
+        "created_at": "2023-09-12T19:56:41.212Z",
+        "updated_at": "2023-09-12T19:37:51.266Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "e8f38bd8-e03a-48de-8d64-8d430e6cff58",
+        "total_income": 28443,
+        "total_expense": 26570,
+        "net_income": 13800,
+        "statement_date": "2023-09-12T23:00:29.662Z",
+        "created_at": "2023-09-12T06:41:53.189Z",
+        "updated_at": "2023-09-12T08:42:45.438Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "a14e77a6-24d4-49c1-837e-f90d7e80a063",
+        "total_income": 89865,
+        "total_expense": 78615,
+        "net_income": 49772,
+        "statement_date": "2023-09-12T06:40:29.832Z",
+        "created_at": "2023-09-12T06:03:48.527Z",
+        "updated_at": "2023-09-12T20:15:09.908Z",
+        "farm_id": "main_entity_pk"
+      },
+      {
+        "id": "0fe6bd1f-74d7-45bc-836d-5fc19a73d471",
+        "total_income": 76040,
+        "total_expense": 50282,
+        "net_income": 47694,
+        "statement_date": "2023-09-12T09:30:39.589Z",
+        "created_at": "2023-09-12T03:00:23.415Z",
+        "updated_at": "2023-09-12T06:27:29.017Z",
+        "farm_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "68c5dbcc-c5b1-4647-b440-8cb5d0e4ce17",
+        "email": "Carolyn82@yahoo.com",
+        "firstName": "Roslyn",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20739857",
+        "tenantId": null
+      },
+      {
+        "reference": "f3238acf-b344-42c4-ad5a-008bb2a82254",
+        "email": "Cassandra35@gmail.com",
+        "firstName": "Anita",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18253232",
+        "tenantId": null
+      },
+      {
+        "reference": "27d9c297-3e36-4298-be6f-d22d639c1231",
+        "email": "Josefa41@yahoo.com",
+        "firstName": "Price",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/872.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9aa3353-79a3-41fa-a14d-e6f4465254f1",
+        "email": "Bernadette30@hotmail.com",
+        "firstName": "Antwon",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/588.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6621af62-9fd0-4557-a86f-ffa6846ead23",
+        "email": "Timmy16@hotmail.com",
+        "firstName": "Skylar",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98966903",
+        "tenantId": null
+      }
+    ]
+  }
+]

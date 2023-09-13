@@ -1,0 +1,91 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model farm {
+  id                  String                @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description         String?               @db.VarChar(255)
+  location            String?               @db.VarChar(255)
+  size                Int?
+  type                String?               @db.VarChar(255)
+  name                String                @db.VarChar(255)
+  created_at          DateTime              @default(now()) @db.Timestamp(6)
+  updated_at          DateTime              @default(now()) @db.Timestamp(6)
+  user_id             String                @db.Uuid
+  tenant_id           String                @db.VarChar(255)
+  user                user                  @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  financial_statement financial_statement[]
+  purchase            purchase[]
+  sale                sale[]
+  visit               visit[]
+}
+
+model financial_statement {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  contract_id    String   @db.VarChar(255)
+  total_income   Int
+  total_expense  Int
+  net_income     Int
+  statement_date DateTime @db.Date
+  farm_id        String   @db.Uuid
+  created_at     DateTime @default(now()) @db.Timestamp(6)
+  updated_at     DateTime @default(now()) @db.Timestamp(6)
+  farm           farm     @relation(fields: [farm_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model purchase {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  product_name  String   @db.VarChar(255)
+  quantity      Int
+  price         Int
+  purchase_date DateTime @db.Date
+  supplier      String   @db.VarChar(255)
+  farm_id       String   @db.Uuid
+  created_at    DateTime @default(now()) @db.Timestamp(6)
+  updated_at    DateTime @default(now()) @db.Timestamp(6)
+  farm          farm     @relation(fields: [farm_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model sale {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  product_name String   @db.VarChar(255)
+  quantity     Int
+  price        Int
+  sale_date    DateTime @db.Date
+  buyer        String   @db.VarChar(255)
+  farm_id      String   @db.Uuid
+  created_at   DateTime @default(now()) @db.Timestamp(6)
+  updated_at   DateTime @default(now()) @db.Timestamp(6)
+  farm         farm     @relation(fields: [farm_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email       String   @unique @db.VarChar(255)
+  firstName   String?  @db.VarChar(255)
+  lastName    String?  @db.VarChar(255)
+  roq_user_id String   @db.VarChar(255)
+  tenant_id   String   @db.VarChar(255)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+  updated_at  DateTime @default(now()) @db.Timestamp(6)
+  farm        farm[]
+}
+
+model visit {
+  id               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  salesperson_name String   @db.VarChar(255)
+  visit_date       DateTime @db.Date
+  purpose          String   @db.VarChar(255)
+  notes            String?  @db.VarChar(255)
+  farm_id          String   @db.Uuid
+  created_at       DateTime @default(now()) @db.Timestamp(6)
+  updated_at       DateTime @default(now()) @db.Timestamp(6)
+  farm             farm     @relation(fields: [farm_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
